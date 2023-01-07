@@ -1,3 +1,7 @@
+This is an end to end machine learning project. The aim of this project is to develop a machine learning model and deploy as a web service.
+
+
+
 2. Build a model that will provide a solution
 3. Wrap and host in a simple web service (Flask)
 4. Build a small app (UI - CSS and HTML) that uses it 
