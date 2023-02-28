@@ -13,4 +13,8 @@ for file in os.listdir(current_dir):
 consumer_complaints = pd.read_csv(file_name)
 pd.set_option('display.max_columns', None)
 
-print(consumer_complaints.head())
+# print(consumer_complaints.head())
+
+# print the target variable 
+target_outcome = consumer_complaints['Consumer disputed?']
+print(target_outcome.head())
