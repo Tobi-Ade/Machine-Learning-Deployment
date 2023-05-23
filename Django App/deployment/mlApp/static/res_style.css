@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: hsla(218, 79%, 83%, 1); */
+    background-image: url("images/img8.jpg");
+}
+
+.content {
+    text-align: center;
+}
+
+.dispute {
+    margin-top: 150px;
+}
+
+.dispute img {
+    width: 500px;
+
+}
+
+.non-dispute {
+    margin-top: 150px;
+}
+
+.non-dispute img {
+    width: 500px;
+    /* height:100px; */
+
+}

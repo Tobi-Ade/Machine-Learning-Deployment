@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 100vh; */
+    background-image: url("images/img5.jpg");
+    background-size: cover; 
+    /* background-color: red; */
+}
+
+.frame {
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    margin-top: 50px;
+    text-align: center;
+    color: hsla(188, 100%, 12%, 1);
+}
+
+.content h2 {
+    margin-top: 20px;
+}
+
+.submit {
+    margin-top: 10px;
+    color: black;
+}
+
+.submit input {
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(130, 137, 148);
+}
+
+
+
+
+

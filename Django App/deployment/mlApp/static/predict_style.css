@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/img2.jpg");
+    background-size: cover;
+}
+
+form {
+    font-size: larger;
+}
+
+.content {
+    margin-top: 50px;
+    margin-left: -200px;
+    text-align: center;
+    color: black;
+    /* width: 1000px; */
+}
+
+
+
+.submit input {
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(130, 137, 148);
+}
+
+.select-form-control {
+    border-radius: 5px;
+}
+

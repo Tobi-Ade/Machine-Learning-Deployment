@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'res_style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <main class="content">
+        {% if result == True %}
+        <div class="dispute">
+            <img src="../static/images/img4.jpg" class="img-dispute">
+            <h2> The Customer will accept your response.</h2>
+        </div>
+
+        {% elif result == False %}
+        <div class="non-dispute">
+            <img src="../static/images/img10.jpg" class="img-non-dispute">
+            <h2>The Customer will dispute your response!</h2>
+        </div>
+
+        {% else %}
+        <p>Error</p>
+
+        {% endif %}
+    </main>
+
+ 
+</body>
+</html>

@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'home_style.css' %}">
+    <title>Home Page</title>
+</head>
+<body>
+    <main class="content">
+        <div class="intro-text">
+            <h1>Welcome to the Customer Satisfaction Prediction App</h1>
+            <br>
+            <h2>Financial Institutions receive numerous complaints everyday, usually leaving customers dissatisfied with how they
+                 are resolved.</h2>
+            <br>
+            <h2>Keep your customers happy by predicting how they will react when you respond to their everyday issues. </h2>
+            <br>
+        </div>
+        <form action="/predict" class="submit">
+            <input type="submit" value="Click to Get Started">
+        </form>   
+        </div>
+    </main>
+    
+</body>
+</html>
