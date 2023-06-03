@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style_index.css">
+    <title>Prediction Page</title>
+</head>
+<body>
+    <main class="content"> 
+        <h1>Please Choose the appropriate options </h1>
+
+        <form action={{url_for("predict")}}  method="post" class="submit">
+            <label for="Product">select a product:</label>
+            <p>
+                <select name="Product">
+                    <option value="Mortgage">mortgage</option>
+                    <option value="Debt Collection">debt</option>
+                    <option value="Credit reporting">credit reporting</option>
+                    <option value="Credit card">credit card</option>
+                    <option value="Bank account">bank account</option>
+                    <option value="Consumer Loan">consumer loan</option>
+                    <option value="Student loan">student loan</option>
+                    <option value="Payday loan">payday loan</option>
+                    <option value="Money transfers">money transfer</option>
+                    <option value="Prepaid card">prepaid card</option>
+                    <option value="Virtual currency">virtual currency</option>
+                </select>
+            </p>
+            
+            <label for="Issue">select an issue:</label>
+            <p>
+                <select name="Issue">
+                    <option value="Loan modification,collection,foreclosure">Loan modification,collection,foreclosure</option>
+                    <option value="Incorrect information on credit report">Incorrect information on credit report</option>
+                    <option value="Loan servicing, payments, escrow account">Loan servicing, payments, escrow account</option>
+                    <option value="Cont'd attempts collect debt not owed">Cont'd attempts collect debt not owed</option>
+                    <option value="Account opening, closing, or management">Account opening, closing, or management</option>
+                    <option value="Disclosure verification of debt">Disclosure verification of debt</option>
+                    <option value="Deposits and withdrawals">deposits and withdrawals</option>
+                    <option value="Communication tactics">communication tactics</option>
+                    <option value="Application, originator, mortgage broker">application, originator, mortgage broker</option>
+                    <option value="Billing disputes">billing disputes</option>
+                </select>
+            </p>
+            
+
+            <label for="consumer_consent_provided">Select consent type:</label>
+            <p>
+                <select name="Consumer_consent_provided">
+                    <option value="Consent provided">consent provided</option>
+                    <option value="Consent not provided">consent not provided</option>
+                    <option value="Consent withdrawn">consent withdrawn</option>
+                </select>
+            </p>
+
+            <label for="submitted_via">Select a mode of submission:</label>
+            <p>
+                <select name="Submitted_via">
+                    <option value="Web">web</option>
+                    <option value="Fax">fax</option>
+                    <option value="Referral">referral</option>
+                    <option value="Postal Mail">postal mail</option>
+                    <option value="Phone">phone</option>
+                    <option value="Email">email</option>
+                </select>
+            </p>
+            
+
+            <label for="company_response">select a company response:</label>
+            <p>
+                <select name="Company_response">
+                    <option value="Closed with explanation">closed with explanation</option>
+                    <option value="Closed">closed</option>
+                    <option value="Closed without relief">closed without relief</option>
+                    <option value="In progress">in progress</option>
+                    <option value="Closed with non-monetary relief">closed with non-monetary relief</option>
+                    <option value="Closed with relief">closed with relief</option>
+                    <option value="Untimely response">untimely response</option>
+                </select>
+            </p>
+            
+            <label for="timely_response">timely response:</label>
+            <p>
+                <select name="timely_response">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </select>
+            </p>
+            
+            <label for="year">select a year:</label>
+            <p>
+                <select name="year">
+                    <option value="2011">2011</option>
+                    <option value="2011">2012</option>
+                    <option value="2011">2013</option>
+                    <option value="2011">2014</option>
+                    <option value="2011">2015</option>
+                    <option value="2011">2016</option>
+                    <option value="2011">2017</option>
+                </select>
+            </p>
+            
+
+            <input type="submit" value="predict">
+        </form>
+
+        {{prediction_text}}
+    </main>
+</body>
+</html>
+
