@@ -112,7 +112,7 @@ The request.py file can also be modified to see how the result changes. You can 
 ```
 This means the server will run on "127.0.0.1:8080"
 
-Now you can copy the url where the serve is running and paste it in your browser, where you can interact with the web app.  
+Now you can copy the url where the serve is running and paste it in your browser, where you can interact with the web app.
 
 
 
