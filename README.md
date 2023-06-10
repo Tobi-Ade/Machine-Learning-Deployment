@@ -23,3 +23,6 @@ Requirements
 2. Machine learning knwoledge 
 3. Software development 
 4. Devops
+
+- Steps to running this project can be found [here]() <br>
+users can access the web app by [clicking this link](http://3.138.119.19:8080/) 
