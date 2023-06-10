@@ -19,7 +19,7 @@ Non functional requirements:
 
 
 Requirements 
-1. Flask
+1. Flask / Django
 2. Machine learning knwoledge 
 3. Software development 
 4. Devops
