@@ -16,7 +16,7 @@
   cd deployment
 ```
 - If you check all the files in this directory you can find the **manage.py** file  whihc is needed to run the app (mlApp). Now run:
-<br>
+
 ```bash
   python manage.py runserver
 ```
