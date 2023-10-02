@@ -114,6 +114,23 @@ This means the server will run on "127.0.0.1:8080"
 
 Now you can copy the url where the serve is running and paste it in your browser, where you can interact with the web app.
 
+<br>
+<br>
+
+## <b> Webpage Images</b>
+<br>
+
+### Homepage 
+![Home](./images/homepage.png)
+
+## Selection Page 
+![Selections](./images/selection-page.png)
+
+## Acceptance Page 
+![Acceptance](./images/aceptance-page.png)
+
+## Rejection Page 
+![Rejection](./images/rejection-page.png)
 
 
 
